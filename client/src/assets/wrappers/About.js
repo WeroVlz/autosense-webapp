@@ -14,7 +14,7 @@ const Wrapper = styled.section`
 
 .column {
   flex-direction: row;
-  min-width: 250px;
+  min-width: 380px;
 }
 
 .card {
@@ -23,7 +23,6 @@ const Wrapper = styled.section`
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
 }
 
 .profile-img {
@@ -84,7 +83,7 @@ padding: 1rem;
   text-align: right;
 }
 
-@media (max-width: 1150px){
+@media (max-width: 1500px){
   .row {
     flex-direction: column; /* Stack cards vertically on small screens */
     align-items: center;

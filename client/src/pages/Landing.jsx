@@ -20,7 +20,7 @@ const Landing = () => {
             advice, or help choosing the perfect ride, our intelligent chatbot
             has you covered.
           </p>
-          <Link to="/register" className="btn register-link">
+          <Link to="/" className="btn register-link">
             Register
           </Link>
           <Link to="/main" className="btn">

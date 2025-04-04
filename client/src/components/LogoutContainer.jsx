@@ -1,12 +1,17 @@
 import { useState } from 'react';
 import Wrapper from '../assets/wrappers/LogoutContainer';
 import { FaUserCircle, FaCaretDown } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const LogoutContainer = () => {
+  const navigate = useNavigate();
   const [showLogout, setShowLogout] = useState(false);
 
   const logoutUser = () => {
-    console.log('logout');
+    localStorage.removeItem('chatMessages');
+    localStorage.removeItem('chatInput');
+    localStorage.removeItem('selectedCar');
+    navigate('/');
   };
 
   return (

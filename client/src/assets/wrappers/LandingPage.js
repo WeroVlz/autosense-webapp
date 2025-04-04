@@ -34,6 +34,8 @@ const Wrapper = styled.section`
     }
     .register-link{
         margin-right: 1rem;
+          background-color: #c6c6c6;
+  cursor: not-allowed;
     }
     .btn{
         padding: 0.75rem 1rem;

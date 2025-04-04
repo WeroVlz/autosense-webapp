@@ -45,7 +45,7 @@ const About = () => {
               <img src={beto} alt="Student 2" className="profile-img" />
               <h3>Alberto Morales</h3>
               <div className="car-box">
-                <p>Camina</p>
+                <p>Walking</p>
                 <FaWalking className="car-icon" />
               </div>
               <div className="stats">
