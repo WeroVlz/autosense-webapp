@@ -16,7 +16,7 @@ const Wrapper = styled.main`
     p{
         line-height: 1.5;
         margin-bottom: 1rem;
-        color: var(--grey-300)
+        color: var(--text-color)
     }
     a{
         color: var(--primary-500);
