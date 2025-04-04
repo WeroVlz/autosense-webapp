@@ -1,0 +1,26 @@
+{
+  "name": "autosense",
+  "version": "1.0.0",
+  "description": "AutoSense Web App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "setup-project": "npm i && cd client && npm i",
+    "server": "nodemon server",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently --kill-others-on-fail \" npm run server\" \" npm run client\""
+  },
+  "keywords": [],
+  "author": "Edgar",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.2.0",
+    "mongoose": "^8.13.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.91.1"
+  }
+}
